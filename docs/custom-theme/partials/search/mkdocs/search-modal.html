@@ -30,7 +30,15 @@
     // Replace the search event to add a trailing wildcard
 
     function doCustomSearch() {
-        var query = `${document.getElementById('mkdocs-search-query').value}*`;
+        var rawquery = document.getElementById('mkdocs-search-query').value;
+
+        var query = rawquery.split(' ').map(token => {
+            const t = token.trim();
+            return ((token !== "" && !token.match(/\*$/)) ? `${token}* ${token}` : token)
+        }).join(' ');
+
+        console.log(query);
+
         if (query.length > min_search_length) {
             if (!window.Worker) {
                 displayResults(search(query));
