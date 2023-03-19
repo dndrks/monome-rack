@@ -1,6 +1,6 @@
 #include "WhiteWhaleWidget.hpp"
-#include "CommonWidgets.hpp"
 #include "SifamTPM.hpp"
+#include "USBAJack.hpp"
 #include "WhiteWhaleModule.hpp"
 
 using namespace rack;

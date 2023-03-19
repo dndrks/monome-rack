@@ -1,5 +1,4 @@
 #include "EarthseaModule.hpp"
-#include "CommonWidgets.hpp"
 
 EarthseaModule::EarthseaModule()
 : LibAVR32Module("earthsea")

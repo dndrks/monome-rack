@@ -1,7 +1,7 @@
 #include "MeadowphysicsWidget.hpp"
-#include "CommonWidgets.hpp"
 #include "MeadowphysicsModule.hpp"
 #include "SifamTPM.hpp"
+#include "USBAJack.hpp"
 
 using namespace rack;
 

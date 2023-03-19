@@ -1,7 +1,7 @@
 #include "EarthseaWidget.hpp"
 #include "EarthseaModule.hpp"
-#include "CommonWidgets.hpp"
 #include "SifamTPM.hpp"
+#include "USBAJack.hpp"
 
 using namespace rack;
 

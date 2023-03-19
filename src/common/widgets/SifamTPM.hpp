@@ -15,11 +15,11 @@ struct Sifam : rack::app::SvgKnob
         bg = new rack::widget::SvgWidget;
         fb->addChildBelow(bg, tw);
 
-        fg = new widget::SvgWidget;
+        fg = new rack::widget::SvgWidget;
         fb->addChildAbove(fg, tw);
 
-        indicatorTransform = new widget::TransformWidget;
-        indicator = new widget::SvgWidget;
+        indicatorTransform = new rack::widget::TransformWidget;
+        indicator = new rack::widget::SvgWidget;
         indicatorTransform->addChild(indicator);
         fb->addChildAbove(indicatorTransform, fg);
     }
