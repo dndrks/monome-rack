@@ -15,6 +15,7 @@ FLAGS += \
 	-Ilib/base64 \
 	-Ilib/oscpack \
 	-Ilib/serialosc \
+	-Ilib/simple-svg \
 	-Ifirmware/mock_hardware \
 	-g \
 
