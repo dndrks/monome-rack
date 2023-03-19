@@ -1,3 +1,5 @@
+#pragma once
+
 #include <rack.hpp>
 
 struct Sifam : rack::app::SvgKnob
