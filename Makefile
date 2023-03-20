@@ -40,7 +40,7 @@ include $(RACK_DIR)/arch.mk
 
 ifeq ($(ARCH_WIN), 1)
 	SOURCES += $(wildcard lib/oscpack/ip/win32/*.cpp) 
-	LDFLAGS += -lws2_32 -lwinmm
+	LDFLAGS += -lws2_32 -lwinmm -lopengl32
 else
 	SOURCES += $(wildcard lib/oscpack/ip/posix/*.cpp) 
 endif
